@@ -1,0 +1,37 @@
+{
+  "name": "git-cli-api",
+  "version": "0.0.0",
+  "description": "Interface with the Git CLI using JavaScript",
+  "main": "src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "clone",
+    "async",
+    "asynchronous",
+    "sync",
+    "synchronous",
+    "cli",
+    "command",
+    "line",
+    "command-line",
+    "interface",
+    "api",
+    "application",
+    "programming",
+    "application-programming",
+    "interface"
+  ],
+  "author": "Ashlynne Juniper",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "pathify": "github:voidvoxel/pathify"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
