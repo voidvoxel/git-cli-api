@@ -136,7 +136,12 @@ export default class Git {
         // If the parent directory does not exist:
         if (!existsSync(parentDirectory)) {
             // Create the parent directory.
-            mkdirSync(parentDirectory);
+            mkdirSync(
+                parentDirectory,
+                {
+                    recursive: true
+                }
+            );
         }
 
         // Set the command.
