@@ -1,6 +1,6 @@
 {
   "name": "git-cli-api",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Interface with the Git CLI using JavaScript",
   "main": "src/index.mjs",
   "type": "module",
