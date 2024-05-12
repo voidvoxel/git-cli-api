@@ -2930,12 +2930,15 @@
       "license": "MPL-2.0"
     },
     "node_modules/pathify": {
-      "version": "0.1.5",
-      "resolved": "git+ssh://git@github.com/voidvoxel/pathify.git#9274e78f732a39d8af56de8cdddcc8c8ac9ff6ef",
+      "version": "0.2.0-alpha",
+      "resolved": "git+ssh://git@github.com/voidvoxel/pathify.git#14fe11eb2c92c4d70ae894e1e046bb7cbc7992a7",
       "license": "MPL-2.0",
       "dependencies": {
         "pathabs": "github:voidvoxel/pathabs#v1.0.0",
         "replace-end": "github:voidvoxel/replace-end"
+      },
+      "engines": {
+        "node": "^20.0.0"
       }
     },
     "node_modules/picocolors": {
