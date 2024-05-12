@@ -29,7 +29,8 @@
   "author": "Ashlynne Juniper",
   "license": "MPL-2.0",
   "dependencies": {
-    "pathify": "github:voidvoxel/pathify"
+    "pathify": "github:voidvoxel/pathify",
+    "replace-end": "^1.0.1"
   },
   "devDependencies": {
     "jest": "^29.7.0"
